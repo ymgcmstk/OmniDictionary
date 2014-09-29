@@ -8,8 +8,6 @@ function transformZenIntoHan(string1){
 	return String.fromCharCode(s.charCodeAt(0) - 0xFEE0);
     });
 }
-console.log('test');
-console.log(transformZenIntoHan('Ａ-'));
 
 function sendSuggestion(content1,text1,suggest) {
 /*  chrome.omnibox.setDefaultSuggestion({
@@ -167,7 +165,5 @@ chrome.omnibox.onInputEntered.addListener(function(text,suggest) {
   }*/
 });
 
-//chrome.omnibox.onInputCancelled.addListener(function(text) {
-//});
 
-//git test
+
