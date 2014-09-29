@@ -1,0 +1,15 @@
+{
+    "name": "OmniDictionary",
+    "short_name": "OmniDictionary",
+    "manifest_version": 2,
+    "version": "1",
+    "description": "Consult a dictionary for words from Omnibox. Thanks for Dejizo api.",
+    "omnibox": {"keyword": "dic"},
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": ["notifications", "tabs","http://public.dejizo.jp/","http://ejje.weblio.jp/"]
+}
